@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS public."section" (
+    id int GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
+    "name" varchar(50) NOT NULL,
+    id_user int not null, 
+    
+    CONSTRAINT fk_section_user_iduser FOREIGN KEY (id_user) REFERENCES public."user" (id)
+);

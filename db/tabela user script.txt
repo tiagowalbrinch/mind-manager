@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS public."user" (
+    id int GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
+    "name" varchar(50) NOT NULL,
+    email varchar(200) NOT NULL
+);
