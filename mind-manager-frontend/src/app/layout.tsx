@@ -1,17 +1,18 @@
-import { MainMenu, PageContainer, PageBody } from "@/components"
+"use client"
+import { MainMenu, PageContainer } from "@/components"
 import "./globals.css"
-import { Provider } from "@/common/stores/provider"
+import { StoreProvider } from "@/common/stores/provider"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <head />
-      <Provider>
-        <PageBody>
+      <body>
+        <StoreProvider>
           <MainMenu />
           <PageContainer>{children}</PageContainer>
-        </PageBody>
-      </Provider>
+        </StoreProvider>
+      </body>
     </html>
   )
 }

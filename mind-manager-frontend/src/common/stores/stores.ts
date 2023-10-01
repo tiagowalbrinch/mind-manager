@@ -1,8 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit"
-import { authReducer } from "./modules/authentication/auth"
+import { userInfoReducer } from "./modules/user-info/userinfo-slice"
+import { UserState } from "./modules/@types"
+export interface StoreState {
+  userState: UserState
+}
 
 export const store = configureStore({
   reducer: {
-    auth: authReducer,
+    userState: userInfoReducer,
   },
 })

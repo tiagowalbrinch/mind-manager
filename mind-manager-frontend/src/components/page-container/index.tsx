@@ -1,6 +1,9 @@
 "use client"
-import { PageWrapper } from "./partials"
+import { Flex } from "@/common/components"
+import styled from "styled-components"
 
-export function PageContainer({ children }: { children: React.ReactNode }) {
-  return <PageWrapper>{children}</PageWrapper>
-}
+export const PageContainer = styled(Flex)`
+  width: 100%;
+  background-color: black;
+  height: 100%;
+`
