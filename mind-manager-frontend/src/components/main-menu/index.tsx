@@ -4,7 +4,7 @@ export function MainMenu() {
   return (
     <ContentWrapper>
       <Link href="/">Home</Link>
-      <Link href="/courses">Courses</Link>
+      <Link href="/section">Sections</Link>
       <Link href="/login">Login</Link>
     </ContentWrapper>
   )

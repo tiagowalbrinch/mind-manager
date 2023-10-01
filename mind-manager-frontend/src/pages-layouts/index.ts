@@ -1,1 +1,1 @@
-export * from "./courses-page"
+export * from "./section-page"
