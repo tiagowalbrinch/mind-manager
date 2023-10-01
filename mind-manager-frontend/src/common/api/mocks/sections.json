@@ -13,6 +13,19 @@
           "bucketLink": "school.csfsr"
         }
       ]
+    },
+    {
+      "name": "Movies",
+      "sectionFiles": [
+        {
+          "fileName": "to watch",
+          "bucketLink": "towatch.csfsr"
+        },
+        {
+          "fileName": "watched",
+          "bucketLink": "watched.csfsr"
+        }
+      ]
     }
   ]
 }
