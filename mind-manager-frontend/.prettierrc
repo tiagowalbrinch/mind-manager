@@ -1,4 +1,12 @@
 {
   "semi": false,
-  "printWidth": 90
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 50
+      }
+    }
+  ]
 }

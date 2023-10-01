@@ -3,7 +3,16 @@
   "sections": [
     {
       "name": "Daily tasks",
-      "sectionFiles": [{ "fileName": "gym", "bucketLink": "gym.csfsr" }]
+      "sectionFiles": [
+        {
+          "fileName": "gym",
+          "bucketLink": "gym.csfsr"
+        },
+        {
+          "fileName": "school",
+          "bucketLink": "school.csfsr"
+        }
+      ]
     }
   ]
 }
